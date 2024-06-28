@@ -1,0 +1,37 @@
+.price-text{padding: 10px;background-color: #f1f2f6; margin-bottom: 40px;}
+.price-text h3{
+   color: #747d8c;
+   font-family: 'Oswald', sans-serif;
+   font-weight: bold;
+   margin-left: 50%;
+}
+.price h5{
+    color:#747d8c;
+    font-family:'Oswald', sans-serif;
+    font-weight: bold;
+}
+.price h2{
+    color:#fc6395;
+    font-family:'Oswald', sans-serif; 
+    background-color: #f1f2f6;
+    font-weight: bold;
+}
+
+
+
+@media (max-width:576px){
+.price-text h3{
+    margin-left: 39%;
+}
+
+.card{
+    margin-left: 20px;
+    margin-bottom: 8px;
+}
+}
+@media (max-width:992px)and (min-width:576px){
+    .card{
+        margin-bottom: 8px;
+        margin-left: 18px;
+    }
+}

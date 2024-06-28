@@ -1,0 +1,164 @@
+
+/************************all*******************************/
+a{
+         color:#fc6395;
+    
+}
+a:hover{
+        text-decoration: none;
+        color:#f8a5c2;
+}
+h6{
+    color:rgb(150, 149, 149);
+    font-size: 14px;
+}
+/************************upper bar*******************************/
+.upper-bar{
+        padding: 4px;
+        background-color:#fc6395; ;
+}
+/************************nav bar*******************************/
+.logo{
+        height: 100px;
+        width: 150px;
+}
+nav{
+         font-family:'Lobster', cursive;
+    
+}
+.nav-link{
+        color: #fc6395 !important; ;
+}
+li {
+        margin:-20px 20px 0 ;
+        font-size: 1.2rem;
+        font-weight: bold;
+}
+.nav-link:hover{
+        color: white !important;;
+        background-color:#fc6395 ;
+        border-radius:25px ;
+        font-size: 1.2rem !important;
+        margin-top: 10px !important;
+        padding: 5px 20px 5px 20px !important;
+}
+.search{
+        margin-top: -19px !important;
+  
+}
+/***********************slider*************************/
+.slider img{
+         height:500px;
+}
+.slider{
+        margin-top: -10px;
+}
+.slider h1{
+        position: absolute;
+        z-index: 4;
+        top:90px;
+        left:50px;
+        font-size: 4rem;
+        font-family:'Lobster', cursive ;
+        font: oblique bold ; 
+
+}
+/**********************welcome section*************************/
+.welcome h1,.feats h1,.Recently-ordered h1{
+        font-family:'Lobster', cursive;
+        margin-top: 10px;
+    
+}
+
+.qoute-1 {
+        margin-top: 40px;
+        height: 200px;
+        background:rgb(248, 159, 174) no-repeat ;
+        opacity: 0.9;
+        position: relative;
+       
+}
+.qoute-1 h1{
+        color:white;
+        position: absolute;
+        top:30%;
+        left:30%;
+        font:normal 800 60px 'Oswald', sans-serif;
+}
+/*****************************feats**************************************/
+.feat-btn{
+    background-color:#f30e5b;
+    border-radius: 25px;
+    width:80px;
+    height:70px;
+}
+.icon-1{
+    color:white;
+}
+.feats{
+        margin-bottom: 90px;
+}
+.feat2{
+        margin-left: 22px;
+}
+
+/*****************************Recently-ordered****************************/
+.Recently-ordered{
+        padding:60px 0;
+        background-color: #f5f5f7;
+}
+.btn-order{
+        background-color: #fc6395;
+        color:white;
+        border-radius: 25px;
+        margin-top: 20px;
+        margin-left:550px;
+}
+/*****************************footer***************************************/
+.footer{
+        padding:20px;
+        background-color:#70a1ff;
+        color: #f1f2f6;
+    } 
+    
+    .footer p{
+        padding-top: 13px;
+        font-size:20px;
+    }
+/***********************************************start media***************************************************/
+/*@media (min-width:576px) sm*/
+/*@media (min-width:768px) md*/
+/*@media (min-width:992px) lg*/
+
+@media(max-width:768px){
+        .qoute-1 h1{
+                font-size:41px;
+                left:6%;
+        }
+        .slider h1{
+                top:43px;
+                left:16px;
+                font-size:3rem ;
+        }
+        .btn-order{margin-left: 90px;}
+       
+}
+@media(max-width:992px)and (min-width:576px){
+        .slider h1{
+              top:43px;
+              left:24px;
+              font-size:4rem;
+        }
+        .qoute-1 h1{font-size: 56px;
+                left: 17%;}
+        
+        .feat-btn{
+                margin-bottom:5px;
+        }        
+        .btn-order{margin-left: 311px;}
+        
+        
+           
+        
+        
+    }

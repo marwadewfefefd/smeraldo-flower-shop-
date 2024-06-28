@@ -1,0 +1,117 @@
+
+/************************all*******************************/
+a{
+    color:#fc6395;
+
+}
+a:hover{
+   text-decoration: none;
+   color:#f8a5c2;
+}
+h6{
+color:rgb(150, 149, 149);
+font-size: 14px;
+}
+/************************upper bar*******************************/
+.upper-bar{
+   padding: 4px;
+   background-color:#fc6395; ;
+}
+/************************nav bar*******************************/
+.logo{
+   height: 100px;
+   width: 150px;
+}
+nav{
+    font-family:'Lobster', cursive;
+
+}
+.nav-link{
+   color: #fc6395 !important; ;
+}
+li {
+   margin:-20px 20px 0 ;
+   font-size: 1.2rem;
+   font-weight: bold;
+}
+.nav-link:hover{
+   color: white !important;;
+   background-color:#fc6395 ;
+   border-radius:25px ;
+   font-size: 1.2rem !important;
+   margin-top: 10px !important;
+   padding: 5px 20px 5px 20px !important;
+}
+.search{
+   margin-top: -19px !important;
+}
+/*************************about*************************************/
+.about-1{padding: 10px;background-color: #f1f2f6;}
+.about-1 h3{
+   color: #747d8c;
+   font-family: 'Oswald', sans-serif;
+   font-weight: bold;
+   margin-left: 50%;
+
+}
+/*******************************************/
+.about-2 h3,.Our advantages h3{
+    font-family:'Oswald', sans-serif;
+    font-weight: bold;
+    margin-top: 40px;
+    color:black;
+}
+.about-2 h6{
+    color:#57606f;
+    margin-bottom: 17px;
+}
+/*******************************/
+.qoute-1 {
+    margin-top: 40px;
+    height: 200px;
+    background:rgb(248, 159, 174) no-repeat ;
+    opacity: 0.9;
+    position: relative;
+    margin-bottom: 40px;
+   
+}
+
+.qoute-1 h1{
+    color:white;
+    position: absolute;
+    top:30%;
+    left:34%;
+    font:normal 800 60px 'Oswald', sans-serif;
+}
+.Our-advantages a{
+    font-weight: bold;
+    
+}
+.Our-advantages h6{
+    text-align: justify;
+    color:#57606f;
+    margin-bottom: 30px;
+}
+/*****************************footer***************************************/
+.footer{
+    padding:20px;
+    background-color:#70a1ff;
+    color: #f1f2f6;
+} 
+
+.footer p{
+    padding-top: 13px;
+    font-size:20px;
+}
+/**********************************/
+@media(max-width:768px){
+    .qoute-1 h1{
+        font-size: 48px;
+        left:10%;
+    }
+}
+@media (max-width:992px)and (min-width:576px){
+    .qoute-1 h1{
+        left:22%;
+    }
+}

@@ -1,0 +1,71 @@
+
+/************************all*******************************/
+a{
+    color:#fc6395;
+
+}
+a:hover{
+   text-decoration: none;
+   color:#f8a5c2;
+}
+h6{
+color:rgb(150, 149, 149);
+font-size: 14px;
+}
+/************************upper bar*******************************/
+.upper-bar{
+   padding: 4px;
+   background-color:#fc6395; ;
+}
+/************************nav bar*******************************/
+.logo{
+   height: 100px;
+   width: 150px;
+}
+nav{
+    font-family:'Lobster', cursive;
+
+}
+.nav-link{
+   color: #fc6395 !important; ;
+}
+li {
+   margin:-20px 20px 0 ;
+   font-size: 1.2rem;
+   font-weight: bold;
+}
+.nav-link:hover{
+   color: white !important;;
+   background-color:#fc6395 ;
+   border-radius:25px ;
+   font-size: 1.2rem !important;
+   margin-top: 10px !important;
+   padding: 5px 20px 5px 20px !important;
+}
+.search{
+   margin-top: -19px !important;
+}
+/*************************about*************************************/
+.contact{padding: 10px;background-color: #f1f2f6;margin-bottom:20px;}
+.contact h3{
+   color: #747d8c;
+   font-family: 'Oswald', sans-serif;
+   font-weight: bold;
+   margin-left: 50%;
+
+}
+/*****************contact**************************/
+.location-2{
+    background-color: #f1f2f6;padding-bottom: 30px;padding-top: 30px;
+
+}
+.location-2 h3{
+    font-family:'Oswald', sans-serif; 
+    font-weight: bold;
+    
+}
+iframe{
+    margin-bottom: 30px;
+    border:2px solid #f78fb3;
+}
+span{color:#fc6395 ;}
